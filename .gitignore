@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 kaggle/working/joblib/*
 poly_*
+charts/__*/*
