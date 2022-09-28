@@ -1,0 +1,32 @@
+strict graph "" {
+	ordinal__income_range -- nominal__marital_status	[weight=0.323];
+	ordinal__income_range -- nominal__job_industry	[weight=0.454];
+	nominal__marital_status -- nominal__job_industry	[weight=0.494];
+	nominal__marital_status -- ordinal__no_visited_bars	[weight=0.31];
+	nominal__marital_status -- ordinal__age	[weight=0.345];
+	nominal__marital_status -- binary__has_children	[weight=0.37];
+	nominal__job_industry -- ordinal__no_visited_cold_drinks	[weight=0.355];
+	nominal__job_industry -- ordinal__restaur_spend_less_than20	[weight=0.34];
+	nominal__job_industry -- ordinal__no_visited_bars	[weight=0.396];
+	nominal__job_industry -- ordinal__no_take_aways	[weight=0.398];
+	nominal__job_industry -- ordinal__restaur_spend_greater_than20	[weight=0.352];
+	nominal__job_industry -- ordinal__age	[weight=0.579];
+	nominal__job_industry -- ordinal__qualif	[weight=0.44];
+	ordinal__no_visited_cold_drinks -- ordinal__restaur_spend_less_than20	[weight=0.436];
+	ordinal__no_visited_cold_drinks -- ordinal__no_visited_bars	[weight=0.369];
+	ordinal__no_visited_cold_drinks -- ordinal__no_take_aways	[weight=0.334];
+	ordinal__no_visited_cold_drinks -- ordinal__restaur_spend_greater_than20	[weight=0.35];
+	ordinal__restaur_spend_less_than20 -- ordinal__no_take_aways	[weight=0.459];
+	ordinal__restaur_spend_less_than20 -- ordinal__restaur_spend_greater_than20	[weight=0.556];
+	ordinal__no_visited_bars -- ordinal__no_take_aways	[weight=0.341];
+	ordinal__no_visited_bars -- ordinal__restaur_spend_greater_than20	[weight=0.459];
+	binary__travelled_more_than_15mins_for_offer -- binary__travelled_more_than_25mins_for_offer	[weight=0.397];
+	binary__travelled_more_than_15mins_for_offer -- binary__restuarant_same_direction_house	[weight=0.361];
+	binary__travelled_more_than_15mins_for_offer -- binary__restuarant_opposite_direction_house	[weight=0.374];
+	binary__restuarant_same_direction_house -- binary__restuarant_opposite_direction_house	[weight=0.955];
+	binary__restuarant_same_direction_house -- nominal__customer_type	[weight=0.327];
+	binary__restuarant_opposite_direction_house -- nominal__customer_type	[weight=0.323];
+	ordinal__age -- binary__has_children	[weight=0.521];
+	interval__temperature -- interval__season	[weight=0.484];
+	interval__travel_time -- ordinal__dest_distance	[weight=0.391];
+}
