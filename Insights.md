@@ -19,3 +19,8 @@ marital_status Legend
 4: Widowed
 
 ```
+```
+Potential Grouping:
+- Pref Profile
+- Biz Info
+```
