@@ -1,5 +1,8 @@
 - Customer Type with children doesnt coincide with having children
 - Divorced has the highest percent with kids
+- Changed Destination to have ordinal Meaning with Travel Time aggregate
+- Combining directly opposite features to give nominal features with varied target expectations.
+
 
 
 ```text
@@ -17,6 +20,15 @@ marital_status Legend
 2: Divorced
 3: UnMarried Partner
 4: Widowed
+
+Restaurant Type Legend
+
+"Cold drinks"             :2
+"2 star restaurant "      :4
+"Take-away restaurant"    :1
+"4 star restaurant   "    :0
+"Restaurant with pub  "   :3
+
 
 ```
 ```
