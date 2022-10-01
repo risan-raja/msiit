@@ -29,6 +29,33 @@ Restaurant Type Legend
 "Restaurant with pub  "   :3
 
 
+
+{'Unemployed': 0,
+ 'Student': 3,
+ 'Computer & Mathematical': 5,
+ 'Sales & Related': 2,
+ 'Education&Training&Library': 13,
+ 'Management': 7,
+ 'Arts Design Entertainment Sports & Media': 1,
+ 'Office & Administrative Support': 6,
+ 'Business & Financial': 4,
+ 'Retired': 17,
+ 'Food Preparation & Serving Related': 23,
+ 'Healthcare Practitioners & Technical': 15,
+ 'Transportation & Material Moving': 16,
+ 'Community & Social Services': 12,
+ 'Healthcare Support': 8,
+ 'Legal': 11,
+ 'Protective Service': 21,
+ 'Life Physical Social Science': 9,
+ 'Personal Care & Service': 22,
+ 'Architecture & Engineering': 18,
+ 'Construction & Extraction': 14,
+ 'Installation Maintenance & Repair': 10,
+ 'Production Occupations': 19,
+ 'Building & Grounds Cleaning & Maintenance': 24,
+ 'Farming Fishing & Forestry': 20}
+
 ```
 ```
 Potential Grouping:
