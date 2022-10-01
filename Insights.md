@@ -2,8 +2,7 @@
 - Divorced has the highest percent with kids
 - Changed Destination to have ordinal Meaning with Travel Time aggregate
 - Combining directly opposite features to give nominal features with varied target expectations.
-
-
+- reduced more 
 
 ```text
 cutomer_type Legend
