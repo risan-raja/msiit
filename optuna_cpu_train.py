@@ -298,9 +298,10 @@ if __name__=='__main__':
     storage = optuna.storages.RedisStorage(url=RDB)
     ### init optuna
     warnings.filterwarnings('ignore')
-    sampler = optuna.samplers.TPESampler(constant_liar=True,n_startup_trials=250,n_ei_candidates=230,warn_independent_sampling=False)
-    study = optuna.create_study(direction="maximize",load_if_exists=True,study_name='TPE_0',
+#     sampler = optuna.samplers.TPESampler(constant_liar=True,n_startup_trials=250,n_ei_candidates=24,warn_independent_sampling=False)
+    sampler = optuna.samplers.RandomSampler(seed=42)
+    study = optuna.create_study(direction="maximize",load_if_exists=True,study_name='TPE_01',
             pruner=optuna.pruners.MedianPruner(n_warmup_steps=5),
             sampler=sampler,
             storage=storage)
-    study.optimize(objective,n_jobs=-1, n_trials=5,show_progress_bar=True)
+    study.optimize(objective,n_jobs=1, n_trials=5,show_progress_bar=False)
