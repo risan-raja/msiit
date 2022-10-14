@@ -304,4 +304,4 @@ if __name__=='__main__':
             pruner=optuna.pruners.MedianPruner(n_warmup_steps=5),
             sampler=sampler,
             storage=storage)
-    study.optimize(objective,n_jobs=1, n_trials=5,show_progress_bar=False)
+    study.optimize(objective,n_jobs=2, n_trials=500,show_progress_bar=False)
