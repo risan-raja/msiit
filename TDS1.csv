@@ -1,0 +1,101 @@
+State,Name,Affiliation_Code,Party_Code,is_Republican,is_Democratic,Vote
+Alabama,Shelby,(R-AL),R,1,0,Nay
+Alabama,Tuberville,(R-AL),R,1,0,Nay
+Alaska,Murkowski,(R-AK),R,1,0,Yea
+Alaska,Sullivan,(R-AK),R,1,0,Yea
+Arizona,Kelly,(D-AZ),D,0,1,Yea
+Arizona,Sinema,(D-AZ),D,0,1,Yea
+Arkansas,Boozman,(R-AR),R,1,0,Nay
+Arkansas,Cotton,(R-AR),R,1,0,Nay
+California,Feinstein,(D-CA),D,0,1,Yea
+California,Padilla,(D-CA),D,0,1,Yea
+Colorado,Bennet,(D-CO),D,0,1,Yea
+Colorado,Hickenlooper,(D-CO),D,0,1,Yea
+Connecticut,Blumenthal,(D-CT),D,0,1,Yea
+Connecticut,Murphy,(D-CT),D,0,1,Yea
+Delaware,Carper,(D-DE),D,0,1,Yea
+Delaware,Coons,(D-DE),D,0,1,Yea
+Florida,Rubio,(R-FL),R,1,0,Nay
+Florida,Scott,(R-FL),R,1,0,Nay
+Georgia,Ossoff,(D-GA),D,0,1,Yea
+Georgia,Warnock,(D-GA),D,0,1,Yea
+Hawaii,Hirono,(D-HI),D,0,1,Yea
+Hawaii,Schatz,(D-HI),D,0,1,Yea
+Idaho,Crapo,(R-ID),R,1,0,Nay
+Idaho,Risch,(R-ID),R,1,0,Nay
+Illinois,Duckworth,(D-IL),D,0,1,Yea
+Illinois,Durbin,(D-IL),D,0,1,Yea
+Indiana,Braun,(R-IN),R,1,0,Nay
+Indiana,Young,(R-IN),R,1,0,Nay
+Iowa,Ernst,(R-IA),R,1,0,Nay
+Iowa,Grassley,(R-IA),R,1,0,Nay
+Kansas,Marshall,(R-KS),R,1,0,Nay
+Kansas,Moran,(R-KS),R,1,0,Nay
+Kentucky,McConnell,(R-KY),R,1,0,Nay
+Kentucky,Paul,(R-KY),R,1,0,Nay
+Louisiana,Cassidy,(R-LA),R,1,0,Nay
+Louisiana,Kennedy,(R-LA),R,1,0,Nay
+Maine,Collins,(R-ME),R,1,0,Yea
+Maine,King,(I-ME),I,0,0,Yea
+Maryland,Cardin,(D-MD),D,0,1,Yea
+Maryland,Van,(D-MD),D,0,1,Yea
+Massachusetts,Markey,(D-MA),D,0,1,Yea
+Massachusetts,Warren,(D-MA),D,0,1,Yea
+Michigan,Peters,(D-MI),D,0,1,Yea
+Michigan,Stabenow,(D-MI),D,0,1,Yea
+Minnesota,Klobuchar,(D-MN),D,0,1,Yea
+Minnesota,Smith,(D-MN),D,0,1,Yea
+Mississippi,Hyde-Smith,(R-MS),R,1,0,Nay
+Mississippi,Wicker,(R-MS),R,1,0,Nay
+Missouri,Blunt,(R-MO),R,1,0,Nay
+Missouri,Hawley,(R-MO),R,1,0,Nay
+Montana,Daines,(R-MT),R,1,0,Nay
+Montana,Tester,(D-MT),D,0,1,Yea
+Nebraska,Fischer,(R-NE),R,1,0,Nay
+Nebraska,Sasse,(R-NE),R,1,0,Nay
+Nevada,Cortez,(D-NV),D,0,1,Yea
+Nevada,Rosen,(D-NV),D,0,1,Yea
+New Hampshire,Hassan,(D-NH),D,0,1,Yea
+New Hampshire,Shaheen,(D-NH),D,0,1,Yea
+New Jersey,Booker,(D-NJ),D,0,1,Yea
+New Jersey,Menendez,(D-NJ),D,0,1,Yea
+New Mexico,Heinrich,(D-NM),D,0,1,Yea
+New Mexico,Lujan,(D-NM),D,0,1,Yea
+New York,Gillibrand,(D-NY),D,0,1,Yea
+New York,Schumer,(D-NY),D,0,1,Yea
+North Carolina,Burr,(R-NC),R,1,0,Nay
+North Carolina,Tillis,(R-NC),R,1,0,Nay
+North Dakota,Cramer,(R-ND),R,1,0,Nay
+North Dakota,Hoeven,(R-ND),R,1,0,Nay
+Ohio,Brown,(D-OH),D,0,1,Yea
+Ohio,Portman,(R-OH),R,1,0,Yea
+Oklahoma,Inhofe,(R-OK),R,1,0,Nay
+Oklahoma,Lankford,(R-OK),R,1,0,Nay
+Oregon,Merkley,(D-OR),D,0,1,Yea
+Oregon,Wyden,(D-OR),D,0,1,Yea
+Pennsylvania,Casey,(D-PA),D,0,1,Yea
+Pennsylvania,Toomey,(R-PA),R,1,0,Not Voting
+Rhode,Reed,(D-RI),D,0,1,Yea
+Rhode,Whitehouse,(D-RI),D,0,1,Yea
+Sourth Carolina,Graham,(R-SC),R,1,0,Nay
+Sourth Carolina,Scott,(R-SC),R,1,0,Nay
+South Dakota,Rounds,(R-SD),R,1,0,Nay
+South Dakota,Thune,(R-SD),R,1,0,Nay
+Tennessee,Blackburn,(R-TN),R,1,0,Nay
+Tennessee,Hagerty,(R-TN),R,1,0,Nay
+Texas,Cornyn,(R-TX),R,1,0,Nay
+Texas,Cruz,(R-TX),R,1,0,Nay
+Utah,Lee,(R-UT),R,1,0,Nay
+Utah,Romney,(R-UT),R,1,0,Yea
+Vermont,Leahy,(D-VT),D,0,1,Yea
+Vermont,Sanders,(I-VT),I,0,0,Yea
+Virginia,Kaine,(D-VA),D,0,1,Yea
+Virginia,Warner,(D-VA),D,0,1,Yea
+Washington,Cantwell,(D-WA),D,0,1,Yea
+Washington,Murray,(D-WA),D,0,1,Yea
+West Virginia,Capito,(R-WV),R,1,0,Yea
+West Virginia,Manchin,(D-WV),D,0,1,Yea
+Wisconsin,Baldwin,(D-WI),D,0,1,Yea
+Wisconsin,Johnson,(R-WI),R,1,0,Nay
+Wyoming,Barrasso,(R-WY),R,1,0,Nay
+Wyoming,Lummis,(R-WY),R,1,0,Nay

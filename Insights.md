@@ -3,7 +3,29 @@
 - Changed Destination to have ordinal Meaning with Travel Time aggregate
 - Combining directly opposite features to give nominal features with varied target expectations.
 - reduced more 
-
+```python
+    prefs = [
+        "binary__prefer_home_food",
+        "binary__is_foodie",
+        "binary__prefer_western_over_chinese",
+        "binary__cooks_regularly",
+    ]
+    
+    "biz_type = (nominal__restaurant_type * 2) + (binary__offer_expiration)"
+    spend_id =  [
+            "ordinal__restaur_spend_greater_than20",
+            "ordinal__restaur_spend_less_than20",
+        ]
+    direction_f = [
+        "binary__restuarant_opposite_direction_house",
+        "binary__restuarant_same_direction_house",
+    ]
+    extra_effort = [
+        "binary__travelled_more_than_15mins_for_offer",
+        "binary__travelled_more_than_25mins_for_offer",
+    ]
+     circumstance = ["nominal__customer_type", "nominal__extra_travel", "nominal__direction"]
+```
 ```text
 cutomer_type Legend
 

@@ -10,6 +10,7 @@ from sklearn.naive_bayes import *
 from sklearn.linear_model import *
 from sklearn.feature_selection import *
 from sklearn.model_selection import *
+from sklearn.metrics import *
 db = MyDB()
 def gen_train_test(X, y, test_size):
     X_train, X_test, y_train, y_test = train_test_split(
@@ -84,7 +85,7 @@ ct = make_column_transformer(
     sparse_threshold=50,
     n_jobs=-1
 )
-enc = make_pipeline(ct,PolynomialFeatures(include_bias=False,interaction_only=True,degree=4,order='F'),VarianceThreshold())
+enc = make_pipeline(ct,PolynomialFeatures(include_bias=False,interaction_only=True,degree=3,order='F'),VarianceThreshold())
 
 # print(master_X.head())
 with parallel_backend('loky',):
@@ -92,6 +93,7 @@ with parallel_backend('loky',):
     X = db.data[db.orig_columns]
     X_enc = enc.transform(X)
 X_enc = pd.DataFrame.sparse.from_spmatrix(X_enc,columns=list(enc.get_feature_names_out()))
+
 
 with open('kaggle/working/poly_features.pkl','wb') as fp:
     pickle.dump(X_enc,fp,protocol=5)
@@ -107,7 +109,7 @@ print(classification_report(y_test,y_pred))
 clfs = [
     BernoulliNB(binarize=False,alpha=1e-09,fit_prior=True,),
     ComplementNB(alpha=1e-09,fit_prior=True,),
-    GaussianNB(),
+#     GaussianNB(),
     MultinomialNB(alpha=1e-09,fit_prior=True,),
     LogisticRegressionCV(max_iter=1000000,
                          fit_intercept=False,
